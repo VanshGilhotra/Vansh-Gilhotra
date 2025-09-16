@@ -1,0 +1,81 @@
+@media(min-width: 300px) and (max-width:700px){
+
+    img{
+        margin-bottom: 30px;
+    }
+
+    .page-title{
+        font-size: 25px;
+    }
+    .home-stat{
+        display: block !important;
+        text-align: center ;
+    }
+    .home-stat .counter{
+        width: 100%;
+    }
+
+    .section{
+        padding: 30px 0px;
+    }
+    .home{
+        padding: 30px 0;
+    }
+    .hero-image{
+        padding-bottom: 70px;
+    }
+    .shape-1{
+        width: 150px;
+        height: 150px;
+        top: 20px;
+        right: 0px;
+    }
+    .shape-2{
+        width: 120px;
+        height: 120px;
+        bottom: 20px;
+    }
+
+
+    .lead{
+        text-align: justify;
+    }
+    .timeline-dot{
+        left: calc(45% + 1px );
+    }
+    .resume .resume-wrapper .resume-block .timeline::before{
+        left: 45%;
+    }
+    .timeline-left{
+        width: 50% !important;
+    }
+    .timeline-left h4{
+        font-size: 16px;
+    }
+    .timeline-right{
+        padding-left: 40px;
+    }
+    .position{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .testi{
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .larger{
+        font-size: 37px;
+    }
+
+    .faq h2{
+        font-size: 38px !important;
+    }
+    .contact-form form input{
+        padding: 25px 15px !important;
+    }
+}
